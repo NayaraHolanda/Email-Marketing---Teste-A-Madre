@@ -1,0 +1,226 @@
+<mjml>
+  <mj-head>
+    <mj-title>A Madre Propaganda</mj-title>
+    <mj-style>
+      .sombra {
+        box-shadow: 0 4px 6px hsla(0, 0%, 46%, 0.2), 0 1px 3px hsla(0, 0%, 46%, 0.2);
+        border-radius: 12px;
+      }
+
+      @media screen and (max-width: 480px) {
+        .navbar-link-left {
+          padding: 0 20px 0 40px !important;
+        }
+
+        .navbar-link-right {
+          padding: 0 40px 0 20px !important;
+        }
+
+        .diminuir-fonte-ofertas div {
+          font-size: 20px !important;
+        }
+
+        .espaco-text {
+          padding-bottom: 10px !important;
+        }
+
+        .diminuir-letra-botao a {
+          font-size: 12px !important;
+        }
+
+        .espaco-banner-oferta div {
+          height: 0 !important;
+        }
+
+        .t-hero div {
+          padding: 0;
+        }
+
+        .t-1 {
+          padding: 35px 35px 0 250px !important;
+        }
+
+        .t-1 div {
+          font-size: 18px !important;
+        }
+
+        .t-2 {
+          padding-left: 250px !important;
+          padding-right: 35px !important;
+        }
+
+        .t-2 div {
+          font-size: 14px !important;
+        }
+
+        .t-2 a {
+          font-size: 16px !important;
+        }
+
+        .tamanho-fonte-rodape div {
+          font-size: 20px !important;
+        }
+
+        .diminuir-linha p {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f9f9f9">
+    <mj-section background-color="#fff" padding="20px 0">
+      <mj-group>
+        <mj-column width="50%">
+          <mj-text align="center" font-family="Arial" font-weight="bold" padding="0">
+            Descontos para você aproveitar.
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-text align="right" font-family="Arial" font-weight="bold" padding="0 30px 0 0">
+            <a href="#" style="text-decoration: none; color: inherit;">
+              Ver Online
+            </a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%">
+          <mj-text font-family="Arial" font-weight="bold" padding="0">
+            <a href="#" style="text-decoration: none; color: inherit;">
+              Descadastre-se
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#212121" padding="10px 0 5px 0">
+      <mj-group>
+        <mj-column>
+          <mj-image width="75px" height="30px" src="https://i.ibb.co/3dLj0pz/logo.png" />
+          <mj-navbar>
+            <mj-navbar-link padding="0" href="#" color="#fff" text-transform="capitalize" font-family="Arial" font-weight="bold">
+              Promoções
+            </mj-navbar-link>
+            <mj-navbar-link padding="0 40px 0 80px" href="#" color="#fff" text-transform="capitalize" font-family="Arial" font-weight="bold" css-class="navbar-link-left">
+              Benefícios
+            </mj-navbar-link>
+            <mj-navbar-link padding="0 80px 0 40px" href="#" color="#fff" text-transform="capitalize" font-family="Arial" font-weight="bold" css-class="navbar-link-right">
+              Pessoais
+            </mj-navbar-link>
+            <mj-navbar-link padding="0" href="#" color="#fff" text-transform="capitalize" font-family="Arial" font-weight="bold">
+              Empresariais
+            </mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-hero mode="fluid-height" height="500px" background-width="600px" background-height="500px" background-url="https://i.ibb.co/kQTVMSk/banner.png" background-color="#fff" css-class="t-hero">
+      <mj-text font-family="Arial" font-weight="bold" font-size="22px" padding="50px 50px 0 320px" css-class="t-1">
+        USE XXXX E GANHE 30% DE DESCONTO NA PIZZARIA NO
+        <br />
+        DIA DA PIZZA.
+      </mj-text>
+      <mj-text font-family="Arial" font-size="16px" padding-left="320px" padding-right="50px" css-class="t-2">
+        Nesse dia 10/07, dia da pizza, faça seu pedido nas pizzarias parceiras e aproveite
+        <br />
+        nossas ofertas especiais.
+      </mj-text>
+      <mj-button href="#" align="left" font-family="Arial" font-size="18px" font-weight="bold" text-transform="uppercase" background-color="#ed4022" border-radius="12px" inner-padding="8px 25px" padding-left="320px" padding-right="50px" css-class="t-2">
+        aproveite já
+      </mj-button>
+    </mj-hero>
+
+    <mj-wrapper background-color="#fff" padding="60px 30px 40px 30px">
+      <mj-section css-class="sombra">
+        <mj-group>
+
+          <mj-column>
+            <mj-image src="https://i.ibb.co/VDzmCL5/desconto-azul.png" />
+          </mj-column>
+          <mj-column width="45%">
+            <mj-text font-family="Arial" font-weight="bold" font-size="26px" padding-bottom="0px" css-class="diminuir-fonte-ofertas">
+              Ganhe 30% de DESCONTO
+            </mj-text>
+            <mj-text font-family="Arial">
+              no site da pizza!
+              <br />
+              Cadastre seu cartão
+              <br />
+              no app legal e use
+              <br />
+              um cupom exclusivo
+              <br />
+              entre os dias 9 a 12/07
+            </mj-text>
+            <mj-button href="#" align="left" font-family="Arial" font-size="18px" font-weight="bold" text-transform="uppercase" background-color="#00a2df" border-radius="12px" inner-padding="12px 25px" css-class="diminuir-letra-botao">
+              aproveite já
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-group>
+
+          <mj-column css-class="sombra" width="48%">
+            <mj-image src="https://i.ibb.co/WVX2b9W/desconto-amarelo.png" />
+            <mj-text font-family="Arial" font-weight="bold" font-size="26px" css-class="diminuir-fonte-ofertas">
+              Ganhe R$10
+              <br />
+              de DESCONTO
+            </mj-text>
+            <mj-text font-family="Arial">
+              pedindo pelo app ou site
+              <br />
+              do nosso produto. Cadastre
+              <br />
+              seu cartão no app
+              <br />
+              legal e use o cupom
+              <br />
+              entre os dias 9 a 12/07.
+            </mj-text>
+            <mj-button href="#" align="left" font-family="Arial" font-size="18px" font-weight="bold" text-transform="uppercase" background-color="#00a2df" border-radius="12px" inner-padding="12px 25px" css-class="diminuir-letra-botao">
+              aproveite já!
+            </mj-button>
+          </mj-column>
+          <mj-column width="4%" />
+          <mj-column css-class="sombra" width="48%">
+            <mj-image src="https://i.ibb.co/zH9FmS7/desconto-preto.png" />
+            <mj-text font-family="Arial" font-weight="bold" font-size="26px" css-class="diminuir-fonte-ofertas">
+              Ganhe 10%
+              <br />
+              de DESCONTO
+            </mj-text>
+            <mj-text font-family="Arial" padding-bottom="24px">
+              no site da nossa loja nos dias 9 a 12/07. Cadastre seu produto
+              <br />
+              no app legal e resgate
+              <br />
+              o cupom exclusivo.
+            </mj-text>
+            <mj-button href="#" align="left" font-family="Arial" font-size="18px" font-weight="bold" text-transform="uppercase" background-color="#00a2df" border-radius="12px" inner-padding="12px 25px" css-class="diminuir-letra-botao">
+              aproveite já
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-hero mode="fixed-height" height="143px" background-width="600px" background-height="469px" background-url="https://i.ibb.co/F46TyJC/fundo-rodape-1.png" background-color="#717171">
+      <mj-divider border-color="#ee543d" border-style="solid" border-width="1px" width="100%" padding="0" />
+      <mj-text align="center" color="#fff" font-size="22px" padding-top="20px" css-class="tamanho-fonte-rodape">
+        ACESSE O SITE E CONFIRA MAIS OFERTAS.
+      </mj-text>
+      <mj-button href="#" font-family="Arial" font-size="18px" font-weight="bold" text-transform="uppercase" background-color="#fff" color="#ee543d" border-radius="12px" inner-padding="8px 25px" padding-top="0">
+        clique aqui
+      </mj-button>
+    </mj-hero>
+
+    <mj-hero mode="fixed-height" height="86px" background-width="600px" background-height="469px" background-url="https://i.ibb.co/z4vFwL5/fundo-rodape-2.png" background-color="#787878">
+      <mj-text align="center" text-transform="uppercase" color="#fff" font-size="22px" padding-top="30px" css-class="tamanho-fonte-rodape">
+        um abraço pra você.
+      </mj-text>
+    </mj-hero>
+  </mj-body>
+</mjml>
